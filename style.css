@@ -1,0 +1,28 @@
+body{
+    background-color: #212121;
+    color: #b030b0;
+}
+
+section{
+    text-align: center;
+}
+
+#gameDivision{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 400px;
+    margin: 50px auto;
+}
+
+.cells{
+    width: 80px;
+    height: 80px;
+    margin: 20px auto auto 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 3px #333333;
+    background-color: #5D5D5D;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
